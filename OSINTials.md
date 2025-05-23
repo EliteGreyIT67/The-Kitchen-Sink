@@ -22,7 +22,7 @@ An OSINT toolkit that prioritizes quality over quantity. The overwhelming majori
 ### 📈 [Businesses and NonProfits](#businesses-and-nonprofits)
 ### 🔎 [Search Engines](#search-engines)
 ### 🗺️ [Maps and Geolocation Identifiers](#maps-and-geolocation-identifiers)
-### 📷 [Image and Video](#image-and-video)
+### 📷 [Image Video and Documents](#image-video-and-documents)
 ### 🪪 [Credential Breaches](#credential-breaches)
 ### 🧅 [Tor Hidden Services](#tor-hidden-services)
 ### 🖥️ [Domains](#domains)
@@ -93,7 +93,7 @@ An OSINT toolkit that prioritizes quality over quantity. The overwhelming majori
 |[Castrick Clues](https://castrickclues.com/)|Find Accounts And Information Linked To An Email Address|
 |[Osint.Rocks](https://osint.rocks)|Find Accounts And Information Linked To An Email Address|
 |[Holehe](https://github.com/megadose/holehe)|Find Accounts Linked To An Email Address|
-|[Socialscan](github.com/iojw/socialscan)|Find Accounts Linked To An Email Address|
+|[Socialscan](https://github.com/iojw/socialscan)|Find Accounts Linked To An Email Address|
 |[Crosslinked](https://github.com/m8sec/crosslinked)|Scrape Linkedin For Employee Email Addresses|
 |[Hunter](https://hunter.io/email-verifier)|Verify Email Validity and Reputation|
 |[Emailrep](https://emailrep.io)|Verify Email Validity and Reputation|
@@ -251,7 +251,7 @@ An OSINT toolkit that prioritizes quality over quantity. The overwhelming majori
 |[AihitData](https://www.aihitdata.com)|Business Information Search|
 |[US SEC](https://sec.gov/search-filings)|US Securities and Exchange Commission Business Records|
 |[Yelp](https://www.yelp.com/)|Business Reviews/Reputation|
-|[Indeed](https://www.indeed.com)|Business Reviews/Reputation|
+|[Indeed](https://www.indeed.com)|Business Reviews/Reputation/Job Postings|
 |[Better Business Bureau](https://www.bbb.org/)|Business Reviews/Reputation|
 |[IRS.gov](https://www.irs.gov/charities-non-profits/tax-exempt-organization-search)|Non-Profit/Charity Tax Records|
 |[Pro Publica](https://projects.propublica.org/nonprofits/)|Non-Profit/Charity Tax Records|
@@ -263,13 +263,14 @@ An OSINT toolkit that prioritizes quality over quantity. The overwhelming majori
 |----|-----------|
 |- [Google](https://google.com)|Google Search Engine|
 |&nbsp;&nbsp;&nbsp;&nbsp;[Google - (advanced search)](https://Google.com/advanced_search)|Advanced Google Search Engine|
+|&nbsp;&nbsp;&nbsp;&nbsp;[Google - Alerts](https://google.com/alerts)|Get Notified When Google Crawls Searched Parameters|
 |&nbsp;&nbsp;&nbsp;&nbsp;[Google - Dorks Cheat Sheet](https://usersearch.org/updates/2023/02/05/the-ultimate-google-dorking-cheatsheet-2023/)|Google Dorking Syntax Cheat Sheet|
 |&nbsp;&nbsp;&nbsp;&nbsp;[Dork Genius](https://dorkgenius.com)|AI Tool That Creates Google Dork Syntax Based On Text Input|
 |&nbsp;&nbsp;&nbsp;&nbsp;[File Type Extensions List](https://en.wikipedia.org/wiki/List_of_file_formats)|Use To Find Correct File Type Extension For Google Dorking|
 |&nbsp;&nbsp;&nbsp;&nbsp;[Google Hacking Database](https://www.exploit-db.com/google-hacking-database)|Various Hacking/OSINT Google Dorks Syntax|
 |- [Bing](https://bing.com)|Bing Search Engine|
 |&nbsp;&nbsp;&nbsp;&nbsp;[Bing - Dorks Cheat Sheet](https://www.sidegains.com/search-engines/bing-search-operators-cheat-sheet/)|Bing Dorking Syntax Cheat Sheet|
-|[Yandex](https://yandex.com)|Bing Search Engine|
+|[Yandex](https://yandex.com)|Yandex Search Engine|
 |[DuckDuckGo](https://duckduckgo.com)|DuckDuckGo Search Engine|
 |[Qwant](https://qwant.com)|Qwant Search Engine|
 |- [Yahoo](https://yahoo.com)|Yahoo Search Engine|
@@ -303,7 +304,7 @@ An OSINT toolkit that prioritizes quality over quantity. The overwhelming majori
 
 [↑ Back To Top](#contents)
 
-## Image and Video
+## Image Video and Documents
 |Name|Description|
 |----|-----------|
 |[Google Images](https://images.google.com)|Image Search|
@@ -317,7 +318,6 @@ An OSINT toolkit that prioritizes quality over quantity. The overwhelming majori
 |[Pimeyes](https://pimeyes.com)|Facial Recognition|
 |[Search4Faces](https://www.search4faces.com/en/)|Facial Recognition|
 |[Face Comparison](https://facecomparison.toolpie.com/)|Compare Two Images To See If They Are The Same Person|
-|[Face Shape](https://www.faceshape.com/face-compare)|Compare Two Images To See If They Are The Same Person|
 |[Remove.bg](https://remove.bg)|Removes The Background Of An Image|
 |[Cleaup.Pictures](https://cleanup.pictures)|Removes Objects From An Image|
 |[Upscayl](https://upscayl.org)|Image Upscaler|
@@ -328,6 +328,7 @@ An OSINT toolkit that prioritizes quality over quantity. The overwhelming majori
 |[jExifToolGUI](https://flathub.org/apps/io.github.hvdwofl.jExifToolGUI)|EXIF Data Viewer|
 |[ExifTool](https://exiftool.org/)|EXIF Data Viewer|
 |[xeuledoc](https://github.com/Malfrats/xeuledoc)|Google Document Metadata Viewer|
+|[pdfinfo](https://www.cyberciti.biz/faq/linux-unix-view-technical-details-of-pdf/)|CLI View PDF Metadata Viewer|
 |[Google Translate](https://translate.google.com)|Use To Identify And Translate Text In Images|
 |[yt-dlp](https://github.com/yt-dlp/yt-dlp)|Video Downloader|
 |[Video Downloader](https://flathub.org/apps/com.github.unrud.VideoDownloader)|Video Downloader|
@@ -455,11 +456,12 @@ An OSINT toolkit that prioritizes quality over quantity. The overwhelming majori
 |[Check Short URL](https://checkshorturl.com)|Short URL Info|
 |[url2png](https://www.url2png.com/)|Domain Landing Page Snapshot|
 |[ViewDNS](https://viewdns.info)|Domain Lookup|
-|[Domain Tools](https://Whois.domaintools.com)|Domain Lookup|
 |[Threat Intelligence Platform](https://threatintelligenceplatform.com)|Domain Lookup|
-|[Whoisology](https://Whoisology.com)|Domain Lookup|
-|[Whoxy](https://whoxy.com)|Historical Domain Registration|
-|[Whois History](https://whois-history.whoisxmlapi.com)|Historical Domain Registration|
+|[Whois](https://www.kali.org/tools/whois/)|CLI Whois Domain Lookup
+|[Domain Tools](https://Whois.domaintools.com)|Whois Domain Lookup|
+|[Whoisology](https://Whoisology.com)|Whois Domain Lookup|
+|[Whoxy](https://whoxy.com)|Historical Whois Domain Lookup|
+|[Whois History](https://whois-history.whoisxmlapi.com)|Whois Historical Domain Registration|
 |[Spy On Web](https://spyonweb.com)|Domain Analytic IDs|
 |[Analyze ID](https://analyzeid.com)|Domain Analytic IDs|
 |[Built With](https://builtwith.com)|Domain Analytic IDs|
